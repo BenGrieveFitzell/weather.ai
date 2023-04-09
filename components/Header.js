@@ -5,7 +5,7 @@ export default () => {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "How FishWise works", path: "javascript:void(0)" },
+    { title: "How WeatherGPT works", path: "javascript:void(0)" },
     { title: "About", path: "javascript:void(0)" },
     { title: "Contact", path: "javascript:void(0)" },
     { title: "Help", path: "javascript:void(0)" },
@@ -17,7 +17,7 @@ export default () => {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="javascript:void(0)">
             <h1 className="font-light text-3xl text-[#04d1db]">
-              Fish<span className="font-medium">Wise.ai</span>
+              Weather<span className="font-medium">GPT</span>
             </h1>
           </a>
           <div className="md:hidden">
