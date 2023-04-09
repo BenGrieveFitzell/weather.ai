@@ -65,7 +65,7 @@ export default () => {
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <li key={idx} className="text-gray-600 hover:text-indigo-600">
+                <li key={idx} className="text-gray-600 hover:text-[#04d1db]">
                   <a href={item.path}>{item.title}</a>
                 </li>
               );
@@ -75,7 +75,7 @@ export default () => {
         <div className="hidden md:inline-block">
           <a
             href="javascript:void(0)"
-            className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
+            className="py-3 px-4 text-white bg-[#04d1db] hover:bg-[#04d1db] hover:shadow-md rounded-md shadow"
           >
             Get Started
           </a>

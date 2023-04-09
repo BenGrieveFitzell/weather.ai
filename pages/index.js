@@ -144,7 +144,7 @@ export default function Home() {
 
         <form
           onSubmit={onSubmitPrompt}
-          className="flex items-center bg-gray-100 px-4 py-2 fixed bottom-0 w-full"
+          className="flex items-center bg-gray-100 px-4 py-2 fixed bottom-0 w-full md:w-[500px] md:bottom-8 md:left-[20%] lg:w-[700px] lg:left-[28%]"
         >
           <input
             type="text"
