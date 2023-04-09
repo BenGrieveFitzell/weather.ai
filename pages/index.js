@@ -31,7 +31,7 @@ export default function Home() {
       setKeywordResult(data.keywordResult);
 
       fetch(
-        `http://api.weatherapi.com/v1/current.json?key=f8529668dbd24c048a4202553230604&q=${keywordResult}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=f8529668dbd24c048a4202553230604&q=${keywordResult}&aqi=no`
       )
         .then((response) => response.json())
         .then((data) => {
